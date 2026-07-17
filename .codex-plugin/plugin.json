@@ -1,0 +1,34 @@
+{
+  "name": "sap-bapi-guard",
+  "version": "0.1.0",
+  "description": "Verify SAP BAPIs and block unverified ABAP BAPI calls before commit.",
+  "author": {
+    "name": "SAP BAPI Guard maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sap",
+    "abap",
+    "bapi",
+    "adt",
+    "code-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SAP BAPI Guard",
+    "shortDescription": "Verify SAP BAPIs before ABAP generation.",
+    "longDescription": "SAP BAPI Guard helps Codex verify live SAP BAPI and function module signatures through ADT before generating or reviewing ABAP, and includes a Git pre-commit safety hook for unverified BAPI calls.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Code Review",
+      "Developer Tools"
+    ],
+    "defaultPrompt": [
+      "Use $sap-bapi-verifier to verify this BAPI before writing ABAP.",
+      "Scan this ABAP repository for unverified BAPI calls.",
+      "Install the SAP BAPI Guard pre-commit hook in this repo."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
