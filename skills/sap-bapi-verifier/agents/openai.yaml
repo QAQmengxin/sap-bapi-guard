@@ -1,0 +1,4 @@
+interface:
+  display_name: "SAP BAPI Verifier"
+  short_description: "Verify SAP BAPIs before ABAP generation."
+  default_prompt: "Use $sap-bapi-verifier to verify a BAPI exists and confirm its parameters before writing ABAP code."
